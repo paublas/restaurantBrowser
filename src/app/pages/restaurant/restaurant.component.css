@@ -1,16 +1,16 @@
 @import "../../app.component.css";
 
-.dotGreen {
+.dotGreen, .dotRed {
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: green;
     display: inline-block;
   }
   .dotRed{
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
     background-color: red;
-    display: inline-block;
   }
+
+  .dotGreen{
+    background-color: green;
+  }
+

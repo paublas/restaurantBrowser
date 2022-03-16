@@ -1,1 +1,13 @@
 @import "../../app.component.css";
+
+.products{
+    background-color: rgb(243, 236, 236);
+    border-radius: 5px;
+    border-color: #3f3811;
+    border-width: 2px;
+    border-style: solid; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    width: 90%
+}

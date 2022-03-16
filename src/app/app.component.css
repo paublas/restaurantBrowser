@@ -1,21 +1,37 @@
+
 .general{
-    text-align: center;
+    background-color: rgb(243, 236, 236);
     border-radius: 5px;
     border-color: #3f3811;
     border-width: 2px;
     border-style: solid; 
-    padding: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
-    width: 70%
+    margin-bottom: 5%;
+
+    width: 80%;
+    overflow:auto;
+}
+
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block;
+    width: 200px
+}
+.post-content {
+    margin-left: 10px;
+    
+    text-align: center;
+
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%
 }
 
 
-.imagen{
-    border-radius: 8px;
-    width: 70%;
-}
 
 h1{
     margin-left: 10%;
@@ -23,23 +39,27 @@ h1{
     font-family: 'Trocchi', 
     serif; font-size: 45px; 
     font-weight: normal; 
-    line-height: 35px;
-      
+    line-height: 25px;     
 }
 
 h2{
+    text-transform: uppercase;
     color: rgb(105, 103, 85);
     font-family: 'Trocchi', 
     serif; font-size: 24px; 
-    font-weight: normal; 
+    font-weight:bold; 
     line-height: 20px;
-      
+    text-align: left;
+    margin-left: 210px;
+
 }
 
 h3{
+    margin-left: 210px;
+    margin-right: 15px;
     color: #3f3e3a;
     font-family: 'Trocchi', 
     serif; font-size: 18px; 
     font-weight:lighter;
-    line-height: 8px;
+    line-height: 15px;
 }

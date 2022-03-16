@@ -1,12 +1,13 @@
 
 <div class="general">
 
-    <h2>{{product.name}}</h2>    
 
-    <div >
+    <div class = "post-thumb">
         <img class = "imagen" [src]="path">
     </div>
-    <h3>{{product.description}}</h3>    
-    <h3>{{product.price}}€</h3>    
-
+    <div class = "post-content"> 
+        <h2>{{product.name}}</h2>
+        <h3 align="left">{{product.description}}</h3> 
+        <h3 align="right">{{product.price}}€</h3>    
+    </div>
 </div>   
