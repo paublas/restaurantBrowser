@@ -59,10 +59,8 @@ app.get("/restaurants", (req, res, next) => {
 });
 
 app.get("/restaurant:id/catalog", (req, res, next) => {
-    let query = null;
-    if(req.query.query != null){
-        query = req.query.query.split(',')
-    }
+    const query = req.query.query
+
     const rest_id = parseInt(req.url.split(':')[1].split('/')[0])
     const catalog = restaurants[rest_id].catalog
 
@@ -71,7 +69,7 @@ app.get("/restaurant:id/catalog", (req, res, next) => {
         for (var i = 0; i < catalog.length; i++){
             for (var j = 0; j < catalog[i].products.length; j++){
 
-                if( query.includes(catalog[i].products[j].name) ){
+                if( query.toUpperCase() == catalog[i].products[j].name.substring(0, query.length).toUpperCase() ){
 
                     response[i].products.push({
                         name: catalog[i].products[j].name,

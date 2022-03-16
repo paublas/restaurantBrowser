@@ -9,7 +9,7 @@ import { RestaurantComponent } from './pages/restaurant/restaurant.component';
 import { CatalogComponent } from './pages/catalog/catalog.component';
 import { ProductComponent } from './pages/product/product.component';
 import { CategoryComponent } from './pages/category/category.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,8 @@ import { CategoryComponent } from './pages/category/category.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

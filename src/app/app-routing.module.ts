@@ -10,11 +10,7 @@ const routes: Routes = [
   {
     path: 'catalog', component: CatalogComponent
   },
-  {
-    path: '*',
-    redirectTo: '/restaurants',
-    pathMatch: 'full'
-  }
+  { path: '**', redirectTo: '/restaurants', pathMatch: 'full' },
 ];
 
 @NgModule({

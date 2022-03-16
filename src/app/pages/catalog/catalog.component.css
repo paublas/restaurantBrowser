@@ -1,15 +1,17 @@
-.general{
-    text-align: center;
-    border-radius: 5px;
-    border-color: beige;
-    border-width: 4px;
-    border-style: solid; 
-    padding-bottom: 10px; 
-      
-}
+@import "../../app.component.css";
 
-.imagen{
-    border-radius: 8px;
-    width: 250px;
 
-}
+.searchTerm {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    color:#3f3e3a;
+    border-radius: 4px;
+    border: 3px solid #0f90a1;
+  }
+
+  .search{
+      padding: 10px
+  }

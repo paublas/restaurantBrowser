@@ -1,15 +1,1 @@
-.general{
-    text-align: center;
-    border-radius: 5px;
-    border-color: beige;
-    border-width: 4px;
-    border-style: solid; 
-    padding-bottom: 10px; 
-      
-}
-
-.imagen{
-    border-radius: 8px;
-    width: 250px;
-
-}
+@import "../../app.component.css";

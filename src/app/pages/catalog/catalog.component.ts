@@ -15,6 +15,8 @@ export class CatalogComponent implements OnInit {
 
   private id: string | undefined
 
+  search: string | undefined;
+
   async ngOnInit() {
     this.route.params.subscribe(data =>{
       this.id = data["id"].toString()
@@ -22,8 +24,11 @@ export class CatalogComponent implements OnInit {
 
     const response = await this.req.get('restaurant:'+this.id+'/catalog?')
     this.catalogo = <Plato[]>JSON.parse(JSON.stringify(response));
-    
-    
+  }
+
+  async sendQuery(){
+    const response = await this.req.get('restaurant:'+this.id+'/catalog?query='+this.search)
+    this.catalogo = <Plato[]>JSON.parse(JSON.stringify(response));
   }
 
 }

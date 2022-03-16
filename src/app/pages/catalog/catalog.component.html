@@ -1,1 +1,6 @@
+
+<div class="search">
+    <input type="text" [(ngModel)]="search" class="searchTerm" placeholder="What are you looking for?" (ngModelChange) = "sendQuery()">
+  </div>
+
 <app-category *ngFor="let category of catalogo" [category] = "category"></app-category>
