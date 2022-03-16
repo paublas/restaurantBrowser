@@ -1,0 +1,205 @@
+{
+    "restaurants": [
+      {
+        "id": 0,
+        "name": "Lasarte",
+        "open": false,
+        "lat": 41.450142,
+        "lng": 2.247420,
+        "image_url": "lasarte.jpg",
+        "catalog": [
+          {
+            "category": "Starters",
+            "products": [
+              {
+                "name": "Bolognese Spaghetti",
+                "description": "Nice meal!",
+                "image": "spaghetti.jpg",
+                "price": 10
+              },
+              {
+                "name": "Paella",
+                "description": "Nice meal!",
+                "image": "paella.jpg",
+                "price": 18
+              },
+              {
+                "name": "Noodle Soup",
+                "description": "Nice meal!",
+                "image": "noodlesoup.jpg",
+                "price": 9
+              }
+            ]
+          },
+          {
+            "category": "Second Courses",
+            "products": [
+              {
+                "name": "Meatballs",
+                "description": "Nice meal!",
+                "image": "meatballs.jpg",
+                "price": 10
+              },
+              {
+                "name": "Steak",
+                "description": "Nice meal!",
+                "image": "steak.jpg",
+                "price": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Alkimia",
+        "open": true,
+        "lat": 41.359631,
+        "lng": 2.099620,
+        "image_url": "alkimia.jpg",
+        "catalog": [
+          {
+            "category": "Starters",
+            "products": [
+              {
+                "name": "Bolognese Spaggetti",
+                "description": "Nice meal!",
+                "image": "spaghetti.jpg",
+                "price": 10
+              },
+              {
+                "name": "Macaroni",
+                "description": "Nice meal!",
+                "image": "macaroni.jpg",
+                "price": 9
+              },
+              {
+                "name": "Tacos",
+                "description": "Nice meal!",
+                "image": "tacos.jpg",
+                "price": 10
+              }
+            ]
+          },
+          {
+            "category": "Second Courses",
+            "products": [
+              {
+                "name": "Burger",
+                "description": "Nice meal!",
+                "image": "burger.jpg",
+                "price": 13
+              },
+              {
+                "name": "Salmon",
+                "description": "Nice meal!",
+                "image": "salmon.jpg",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cocina Hermanos Torres",
+        "open": true,
+        "lat": 41.548630,
+        "lng": 2.107440,
+        "image_url": "hermanostorres.jpg",
+        "catalog": [
+          {
+            "category": "Starters",
+            "products": [
+              {
+                "name": "Enchiladas",
+                "description": "Nice meal!",
+                "image": "enchiladas.jpg",
+                "price": 10
+              },
+              {
+                "name": "Paella",
+                "description": "Nice meal!",
+                "image": "paella.jpg",
+                "price": 15
+              },
+              {
+                "name": "Pizza",
+                "description": "Nice meal!",
+                "image": "pizza.jpg",
+                "price": 12
+              }
+            ]
+          },
+          {
+            "category": "Second Courses",
+            "products": [
+              {
+                "name": "Turkey",
+                "description": "Nice meal!",
+                "image": "turkey.jpg",
+                "price": 30
+              },
+              {
+                "name": "Meatballs",
+                "description": "Nice meal!",
+                "image": "meatballs.jpg",
+                "price": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Direkte Boqueria",
+        "open": true,
+        "lat": 41.385063,
+        "lng": 2.173404,
+        "image_url": "direkte.jpg",
+        "catalog": [
+          {
+            "category": "Starters",
+            "products": [
+              {
+                "name": "Curry Rice",
+                "description": "Nice meal!",
+                "image": "curryrice.jpg",
+                "price": 10
+              },
+              {
+                "name": "Macaroni",
+                "description": "Nice meal!",
+                "image": "macaroni.jpg",
+                "price": 12
+              },
+              {
+                "name": "Lasagne",
+                "description": "Nice meal!",
+                "image": "lasagne.jpg",
+                "price": 9
+              }
+            ]
+          },
+          {
+            "category": "Second Courses",
+            "products": [
+              {
+                "name": "Sausage Rolls",
+                "description": "Nice meal!",
+                "image": "sausage.jpg",
+                "price": 10
+              },
+              {
+                "name": "Baked Jacked Potatoes",
+                "description": "Nice meal!",
+                "image": "potatoes.jpg",
+                "price": 12
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

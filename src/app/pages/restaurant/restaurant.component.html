@@ -1,0 +1,13 @@
+
+<div class="general" (click) = "showRestaurant()">
+
+    <h2>{{restaurante.name}}
+        <span *ngIf="restaurante.open" class="dotGreen" ></span>
+        <span *ngIf="!restaurante.open" class="dotRed" ></span>    
+    </h2>    
+
+    <div >
+        <img class = "imagen" [src]="path">
+    </div>
+
+</div>   
