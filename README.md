@@ -12,7 +12,7 @@ Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:42
 
 ## Backend 
 
-Run `node ../restaurant-browser/src/backend/app.js`. Server should start running on port 3000.
+Run `node app.js` in the `/src/backend/` folder. Server should start running on port 3000.
 
 ## Build
 
