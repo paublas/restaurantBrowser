@@ -21,9 +21,7 @@ export class CatalogComponent implements OnInit {
     })
 
     const response = await this.req.get('restaurant:'+this.id+'/catalog?')
-    console.log(response)
     this.catalogo = <Plato[]>JSON.parse(JSON.stringify(response));
-    console.log(this.catalogo)
     
     
   }

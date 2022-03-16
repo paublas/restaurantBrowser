@@ -47,7 +47,6 @@ app.get("/restaurants", (req, res, next) => {
 
     }
     response = []
-    console.log(restaurants)
     for (var i = 0; i < restaurants.length; i++){
         response[i] = {
             id: restaurants[i].id,

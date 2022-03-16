@@ -16,9 +16,7 @@ export class ProductComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.product)
     this.path += this.product.image
-
   }
 
 }

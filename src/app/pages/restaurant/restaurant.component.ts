@@ -21,7 +21,6 @@ export class RestaurantComponent implements OnInit {
 
 
   showRestaurant(){
-    console.log("Showing " + this.restaurante.name)
     this.router.navigate(['/catalog', {id: this.restaurante.id}])
   }
 
